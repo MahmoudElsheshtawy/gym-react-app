@@ -80,6 +80,34 @@ left: 3rem;
 
 }
 
+@media screen and (max-width:768px) {
+    .testimonials{
+        display: flex;
+        margin-bottom: 22rem;
+        text-align: center;
+        font-size: 1rem;
+        flex-direction: column;
+    }
+    .testimonials .right-t{
+        margin-top: 7rem;
+        margin-left:-1rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .right-t{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        left: 100px;
+    }
+  
+
+
+    
+}
 
 
 

@@ -7,6 +7,14 @@
     width: 10rem;
     height: 3rem;
 }
+.bars{
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    background-color: rgb(44, 43, 43);
+    padding: .5rem;
+    border-radius: 10px;
+}
 .header-menu{
     display: flex;
     list-style: none;
@@ -17,4 +25,20 @@
 .header-menu li:hover{
     color: var(--orange);
     cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .header > :nth-child(2){
+       position: fixed;
+       right: 2rem;
+       z-index: 99;
+
+    }
+    .header-menu {
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+     
+    }
+    
 }

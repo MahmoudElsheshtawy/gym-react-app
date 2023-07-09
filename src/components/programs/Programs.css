@@ -62,20 +62,26 @@ font-weight: bold;
 
     
 }
-  
-/* .contant-program .contant :nth-child(4){
-
-    color: #fff;
-    font-size: 20px;
-} */
-
-
 .joun-now img{
     width: 1rem;
-  
-    
+
 } 
 
+@media screen and (max-width:768px) {
+
+    .header-programs{
+        display: block;
+        font-size: xx-large;
+    }
+    .contant-program{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+}
+    
+ 
 
 
 

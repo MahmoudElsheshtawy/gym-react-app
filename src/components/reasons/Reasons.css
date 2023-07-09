@@ -91,3 +91,50 @@ grid-column: 2/4;
 
 }
 
+@media screen and (max-width:768px) {
+
+    .reasons{
+        display: flex;
+        flex-direction: column;
+        font-size: xx-large;
+    }
+
+
+
+    .left-r{
+     grid-auto-rows: auto;
+     overflow: hidden;
+
+    }
+    .reasons .left-r :nth-child(1){
+        width: 7rem;
+        height: 17rem;
+     }
+     
+     .reasons .left-r :nth-child(2){
+     width: 15rem;
+     height: 10rem;
+     
+     }
+     
+     .reasons .left-r :nth-child(3){
+         width: 7rem;
+        
+     }
+     .reasons .left-r :nth-child(4){
+       height: 6rem;
+       width: 7rem;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+}

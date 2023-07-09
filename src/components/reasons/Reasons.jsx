@@ -11,7 +11,7 @@ import nike from '../../assets/nike.png'
 import adidas from '../../assets/adidas.png'
 const Reasons = () => {
   return (
-    <div className='reasons'>
+    <div className='reasons Why us'>
         <div className='left-r'>
             <img src={image1} alt="" />
             <img src={image2} alt="" />

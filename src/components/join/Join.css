@@ -1,7 +1,7 @@
  .join{
     display: flex;
     padding: 0 2rem;
-    gap: 10rem;
+    gap: 8rem;
     margin-bottom: 3rem;
  }
  .left-j{
@@ -61,3 +61,40 @@ flex: 1 1;
  ::placeholder{
     color: rgb(229, 233, 233);
  }
+
+@media screen and (max-width:768px) {
+
+   .join{
+      display: flex;
+      flex-direction: column;
+   
+   }
+   .left-j{
+      font-size: 2rem;
+   }
+   .right-j .email-container{
+     
+      width: fit-content;
+
+    
+      
+      
+      
+  
+     
+   }
+   .right-j .email-container input{
+      width: 100%;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
