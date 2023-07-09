@@ -1,0 +1,53 @@
+.footer-container{
+   position: relative;
+}
+.footer-container hr{
+    border:  1px solid var(--lightgray);
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem; 
+}
+.footer .socail-links{
+    display: flex;
+    gap: 4rem;
+}
+.footer img{
+  height: 2.4rem;
+  cursor: pointer;
+}
+.bulr-1{
+    right: 10rem;
+    background: rgb(212, 6, 6);
+    width: 22rem;
+    height: 25rem;
+    top: 10rem;
+}
+.bulr-2{
+    left: 10rem;
+    background: rgb(255, 153, 0);
+    width: 22rem;
+    height: 25rem;
+    top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

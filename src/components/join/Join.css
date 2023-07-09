@@ -1,0 +1,63 @@
+ .join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+    margin-bottom: 3rem;
+ }
+ .left-j{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    flex: 1 1;
+    text-transform: uppercase;
+    position: relative;
+ }
+ .left-j hr{
+position: absolute;
+width: 10.5rem;
+margin: -10px 0;
+border: 2px solid var(--orange);
+border-radius: 20%;
+
+ }
+ .right-j {
+flex: 1 1;
+
+ }
+ .right-j .email-container{
+    background-color: gray;
+    width: 24rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+
+ }
+ .right-j .email-container input{
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    outline: none;
+    height: 30px;
+    cursor: pointer;
+   
+ }
+
+ .right-j .email-container .btn{
+    background: var(--orange);
+    color: #fff;
+
+ }
+
+ .right-j .email-container .btn:hover{
+    background-color: bisque;
+    color: black;
+
+ }
+ ::placeholder{
+    color: rgb(229, 233, 233);
+ }

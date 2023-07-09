@@ -1,0 +1,101 @@
+.testimonials{
+    display: flex;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+}
+.testimonials .left-t{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    flex: 1 1;
+    color: #ffffff;
+    font-weight: bold;
+    gap: 2rem;
+    text-transform: uppercase;
+
+}
+.testimonials .left-t :nth-child(1)
+{
+color: var(--orange);
+font-size: 26px;
+}
+.testimonials .left-t :nth-child(4)
+{
+font-size: 1rem;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+line-height: 30px;
+
+}
+
+
+.testimonials .left-t :nth-child(5){
+    font-size: 1rem;
+}
+
+.testimonials .right-t{
+flex: 1;
+position: relative;
+}
+.testimonials .right-t>img{
+    position: absolute;
+    width: 17rem;;
+    height:20rem ;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.testimonials .right-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    right: 9rem;
+    top: .9rem;
+    background: transparent;
+    
+}
+.testimonials .right-t >:nth-child(2){
+
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 6.7rem;
+    top: 3.5rem;
+    background: var(--orange);
+
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+left: 3rem;
+}
+.arrows img{
+    width: 1.6rem;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
